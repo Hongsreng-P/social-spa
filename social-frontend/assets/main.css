@@ -1,0 +1,30 @@
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form {
+    margin: auto;
+    width: 40%;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control input {
+    border: 2px solid;
+    border-radius: 0.3rem;
+}
